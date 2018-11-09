@@ -19,8 +19,8 @@ aim = [123.42699, 41.773592]
 
 start = time.clock()
 for i in range(0, 100):
-	  test =  Wall(len(polyX), polyX, polyY)
-	  test.precalc_values()
-	  test.pointInPolygon(aim[0], aim[1])
+	test =  Wall(len(polyX), polyX, polyY)
+	test.precalc_values()
+	test.pointInPolygon(aim[0], aim[1])
 end = time.clock()
 print(end - start)
