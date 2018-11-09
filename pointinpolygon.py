@@ -26,4 +26,4 @@ class Wall(object):
 			current = self.polyY[i] > y
 			if current != previous:
 				oddNodes ^= y * self.multiple[i] + self.constant[i] < x
-		return oddNodes # True or False
+		return oddNodes # True or False 
